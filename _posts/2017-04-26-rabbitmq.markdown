@@ -9,7 +9,7 @@ tags: [rabbitmq]
 双节点主机信息
 rabbitmq01 192.168.201.21
 rabbitmq02 192.168.201.22
-Centos rabbitmq-server 安装教程 http://www.rabbitmq.com/install-rpm.html
+Centos rabbitmq-server [安装教程](http://www.rabbitmq.com/install-rpm.html)
 
 ### 二，配置
 在 rabbitmq01上配置
@@ -46,7 +46,7 @@ Cluster status of node rabbit@rabbitmq02 ...
 root@rabbitmq02:~# rabbitmqctl set_policy ha-all '^(?!amq\.).*' '{"ha-mode": "all"}'
 Setting policy "ha-all" for pattern "^(?!amq\\.).*" to "{\"ha-mode\": \"all\"}" with priority "0" ...
 ```
-注：详情参照 https://geewu.gitbooks.io/rabbitmq-quick/content/RabbitMQ%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E7%BD%AE%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8%E6%80%A7%E8%AE%A8%E8%AE%BA.html
+注：[详情参照](https://geewu.gitbooks.io/rabbitmq-quick/content/RabbitMQ%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E7%BD%AE%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8%E6%80%A7%E8%AE%A8%E8%AE%BA.html)
 
 
 Haproxy 做负载均衡器
