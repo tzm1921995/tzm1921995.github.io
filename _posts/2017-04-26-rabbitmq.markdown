@@ -8,7 +8,9 @@ tags: [rabbitmq]
 ### 一，安装
 双节点主机信息
 rabbitmq01 192.168.201.21
+
 rabbitmq02 192.168.201.22
+
 Centos rabbitmq-server [安装教程](http://www.rabbitmq.com/install-rpm.html)
 
 ### 二，配置
