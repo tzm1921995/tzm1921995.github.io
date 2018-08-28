@@ -62,3 +62,25 @@ Haproxy 做负载均衡器
 ```
 
 负载均衡器会监听5672端口，轮询我们的两个磁盘节点192.168.201.21、192.168.201.22的5672端口，haproxy 这时也会形成单节点故障，建议在rabbit集群两个节点上同时安装haproxy ,并且配置相同，采用keepalived 生成VIP做为接入点
+
+
+<table>
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zOTMxMi8xNTgzOQ==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+</table>
