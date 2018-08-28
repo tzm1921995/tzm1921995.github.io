@@ -27,7 +27,7 @@ destination: _site
 paginate: 10
 #permalink: pretty
 #permalink: /:year/:title/
-permalink: /:categories/:title.html
+permalink: /:title.html
 markdown: kramdown
 highlighter: rouge
 
