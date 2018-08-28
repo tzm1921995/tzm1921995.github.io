@@ -2,7 +2,7 @@
 title: 0 Byte
 description: 0 Byte's Blog
 url: 'http://www.infox.top/'
-baseurl: '/'
+baseurl: /
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
