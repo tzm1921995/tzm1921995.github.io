@@ -26,8 +26,8 @@ defaults:
 destination: _site
 paginate: 10
 #permalink: pretty
-permalink: /:year/:title/
-#permalink: /:title.html
+#permalink: /:year/:title/
+permalink: /:title.html
 markdown: kramdown
 highlighter: rouge
 
