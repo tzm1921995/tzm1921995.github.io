@@ -7,6 +7,7 @@ tags: [infox]
 ## Hello world!
 你好！世界！
 
+<table>
 <!-- 来必力City版安装代码 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8zOTMxMi8xNTgzOQ==">
 	<script type="text/javascript">
@@ -25,3 +26,4 @@ tags: [infox]
 <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
 <!-- City版安装代码已完成 -->
+</table>
