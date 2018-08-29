@@ -1,13 +1,12 @@
 ---
 title:  "jekyll env on ubuntu"
-date:   2016-11-14 11:04:23
+date:   2018-08-28 11:04:23
 categories: [tools]
 tags: [tools]
 ---
 #### github page 
 ubuntu下安装相关环境
 [ruby](https://www.ruby-lang.org/en/downloads/)
-下载ruby-2.3.1.tar.gz
 
 ```
 # sudo apt-get install software-properties-common
@@ -29,12 +28,13 @@ ln -s /usr/local/node/bin/npm /usr/bin/npm
 [jekyll](https://jekyllrb.com/docs/installation/)
 
 ```
-gem install jekyll
+gem install bundler jekyll
 ```
 运行jekyll
 
 ```
-jekyll server -H 0.0.0.0 -P 80 --watch --drafts
+gem install
+bundle exec jekyll server -H 0.0.0.0 -P 80
 ```
 打开 http://SERVER_IP 预览
 
